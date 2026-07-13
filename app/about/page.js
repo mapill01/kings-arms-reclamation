@@ -47,8 +47,8 @@ const team = [
     bio: "Though relatively new to the village, Rob has taken a keen interest in the building through his work as a land agent of 25 years, specialising in multi-million-pound properties along the River Thames. He has previously run a project to acquire a local-authority building in disrepair and rebuild it as a public\u2013private initiative.",
   },
   {
-    slug: "manu-pillai", name: "Manu Pillai", role: "Associate",
-    bio: "A businessman specialising in global IT, who runs Stokenchurch Dental with his wife, a dentist. Manu has contributed to village life in many ways, including running the local Stokenchurch Facebook group of 9,000 members.",
+    slug: "manny-pillai", name: "Manny Pillai", role: "Associate",
+    bio: "Over 25 years of technology sales leadership roles, where he has led teams responsible for securing strategic partners and customers across sectors and regions. Manny specialises in digital transformation for enterprise organisations \u2014 network, web and application security, cloud infrastructure and SaaS \u2014 and has built and led sales and partner teams across EMEA. He is also Founder and CEO of a growing UK dental group operating multiple centres, including Stokenchurch Dental, which he runs with his wife, a dentist, with a focus on accessible, patient-centred care. Manny runs the Stokenchurch community Facebook group of some 9,000 members, and leads on technology for Project Phoenix, having built and maintained this website.",
   },
   {
     slug: "mark-ackford", name: "Rev Mark Ackford", role: "Associate",
