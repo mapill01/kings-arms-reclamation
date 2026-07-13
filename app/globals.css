@@ -494,3 +494,16 @@ body {
   transform: translateY(-1px);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.40);
 }
+
+/* ---- Team roster with bios (About page) ---- */
+.team { display: grid; gap: clamp(1.5rem, 4vw, 2.5rem); grid-template-columns: 1fr; margin-top: 2rem; }
+@media (min-width: 48rem) { .team { grid-template-columns: 1fr 1fr; } }
+.team-card { display: flex; gap: 1.2rem; align-items: flex-start; }
+.team-card img {
+  width: 92px; height: 92px; flex: 0 0 auto; border-radius: 50%;
+  object-fit: cover; border: 2px solid var(--brass); background: var(--pine);
+}
+.team-card .role { margin: 0 0 0.15rem; color: var(--brass); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; }
+.team-card .name { font-family: var(--font-display); font-size: 1.4rem; line-height: 1.1; color: var(--parchment); margin: 0; }
+.team-card .post { font-family: var(--font-body); font-size: 0.7rem; letter-spacing: 0.08em; color: var(--parchment-dim); }
+.team-card .bio { margin: 0.5rem 0 0; color: var(--parchment-dim); font-size: 0.94rem; line-height: 1.6; }
