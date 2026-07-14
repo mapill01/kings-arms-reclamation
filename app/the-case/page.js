@@ -7,7 +7,6 @@ export const metadata = {
 const documents = [
   { href: "/documents/order-for-trial-june-2026.pdf", title: "Order for Trial", meta: "Court order · June 2026 · PDF", tag: "PDF" },
   { href: "/documents/land-registry-title-plan.pdf", title: "Land Registry title plan", meta: "Building & site · BM151257 · PDF", tag: "PDF" },
-  { href: "/documents/stokenchurch-conservation-area-map.pdf", title: "Stokenchurch conservation area map", meta: "PDF", tag: "PDF" },
 ];
 
 export default function TheCase() {

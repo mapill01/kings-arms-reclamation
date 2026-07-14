@@ -154,29 +154,6 @@ export default function KingsArms() {
           </div>
         </div>
       </section>
-
-      <section className="section section--panel">
-        <div className="wrap">
-          <span className="eyebrow section-label reveal">Maps</span>
-          <h2 className="reveal">The Kings Arms in Stokenchurch.</h2>
-          <div className="gallery gallery--wide reveal">
-            <figure className="figure">
-              <img src="/images/1897-map-stokenchurch.jpg" alt="1897 map of Stokenchurch" loading="lazy" />
-              <figcaption><b>1897. </b>Ordnance map of Stokenchurch</figcaption>
-            </figure>
-            <figure className="figure">
-              <img src="/images/conservation-area-map.jpg" alt="Stokenchurch conservation area map" loading="lazy" />
-              <figcaption>Stokenchurch conservation area &mdash; <a href="/documents/stokenchurch-conservation-area-map.pdf">download the full map (PDF)</a></figcaption>
-            </figure>
-          </div>
-          <div className="note reveal">
-            <p>
-              The registered title plan for the building and site is available on{" "}
-              <a href="/the-case">The Case</a> page, alongside the court documents.
-            </p>
-          </div>
-        </div>
-      </section>
     </main>
   );
 }
