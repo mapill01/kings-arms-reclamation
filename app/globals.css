@@ -507,3 +507,17 @@ body {
 .team-card .name { font-family: var(--font-display); font-size: 1.4rem; line-height: 1.1; color: var(--parchment); margin: 0; }
 .team-card .post { font-family: var(--font-body); font-size: 0.7rem; letter-spacing: 0.08em; color: var(--parchment-dim); }
 .team-card .bio { margin: 0.5rem 0 0; color: var(--parchment-dim); font-size: 0.94rem; line-height: 1.6; }
+
+/* ---- select dropdown (pledge amount) ---- */
+select.input {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--brass) 50%),
+                    linear-gradient(135deg, var(--brass) 50%, transparent 50%);
+  background-position: calc(100% - 18px) calc(50% + 2px), calc(100% - 13px) calc(50% + 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  padding-right: 2.5rem;
+  cursor: pointer;
+}
+select.input option { background: var(--ink); color: var(--parchment); }
