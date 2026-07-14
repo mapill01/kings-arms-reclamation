@@ -11,13 +11,15 @@ import { useState } from "react";
 const PLEDGE_ENDPOINT = "https://script.google.com/macros/s/AKfycbwKEaz4pSNYsYspIHETCeCWUuDxvA14wLXastnXDmdpBGluZfVJ2IgFctpTW8IAxzql0A/exec";
 
 // Pledge bands. Edit freely — indicative only, no money is taken.
+// The two "soft" options sit at the bottom, after the amounts.
 const AMOUNTS = [
-  "Not sure yet",
   "Up to £100",
   "£100 – £499",
   "£500 – £999",
   "£1,000 – £4,999",
   "£5,000 or more",
+  "Not sure yet",
+  "Prefer not to say",
 ];
 
 export default function SupportForm() {
@@ -85,7 +87,7 @@ export default function SupportForm() {
           <span className="hint">&mdash; indicative only, not a commitment</span>
         </label>
         <select className="input" id="amount" name="amount" defaultValue="">
-          <option value="">Prefer not to say</option>
+          <option value="" disabled>Select an amount&hellip;</option>
           {AMOUNTS.map((a) => (
             <option key={a} value={a}>{a}</option>
           ))}
