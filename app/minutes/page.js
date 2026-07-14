@@ -10,7 +10,7 @@ export const metadata = {
    choose "Comma-separated values (.csv)" → Publish → copy the link.
    Setup steps are in MINUTES-SETUP.md.
    ──────────────────────────────────────────────────────────────── */
-const MINUTES_SHEET_CSV = "PASTE_YOUR_PUBLISHED_CSV_LINK_HERE";
+const MINUTES_SHEET_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQW9fYU2DYt5petL4SNaFxZWzbKMaikDz_zMFrFkJ2AVD9MLcS8UD7jQ0Qkb1IGdwJTQkazVSuqaR4T/pub?gid=0&single=true&output=csv";
 
 // Re-check the sheet every 10 minutes, so new rows appear without a redeploy.
 export const revalidate = 600;
