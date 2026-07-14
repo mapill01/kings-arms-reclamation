@@ -8,7 +8,7 @@ import { useState } from "react";
    While this still says PASTE_YOUR_URL_HERE, the form shows a
    thank-you message but does NOT save anywhere.
    ──────────────────────────────────────────────────────────────── */
-const PLEDGE_ENDPOINT = https://script.google.com/macros/s/AKfycbwKEaz4pSNYsYspIHETCeCWUuDxvA14wLXastnXDmdpBGluZfVJ2IgFctpTW8IAxzql0A/exec;
+const PLEDGE_ENDPOINT = "https://script.google.com/macros/s/AKfycbwKEaz4pSNYsYspIHETCeCWUuDxvA14wLXastnXDmdpBGluZfVJ2IgFctpTW8IAxzql0A/exec";
 
 // Pledge bands. Edit freely — indicative only, no money is taken.
 const AMOUNTS = [
