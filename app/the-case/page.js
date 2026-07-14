@@ -73,8 +73,8 @@ export default function TheCase() {
           </ul>
           <div className="note reveal">
             <p>
-              Further court directions and the group&rsquo;s minutes will be added here as the case
-              progresses. Publish only what has been cleared for release.
+              Further court directions will be added here as the case progresses. The group&rsquo;s
+              meeting minutes are published on the <a href="/minutes">Minutes</a> page.
             </p>
           </div>
         </div>
