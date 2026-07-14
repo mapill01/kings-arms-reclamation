@@ -9,6 +9,8 @@ export default function SiteFooter() {
         <p className="meta">
           <Link href="/support">Pledge your support</Link>
           {"  \u00b7  "}
+          <Link href="/privacy">Privacy notice</Link>
+          {"  \u00b7  "}
           <a href="mailto:Chris@thekingsarmsreclamation.com">Chris@thekingsarmsreclamation.com</a>
         </p>
         <p className="fine">
