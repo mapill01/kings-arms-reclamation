@@ -7,6 +7,7 @@ const links = [
   { href: "/kings-arms", label: "The Kings Arms" },
   { href: "/about", label: "The Campaign" },
   { href: "/the-case", label: "The Case" },
+  { href: "/minutes", label: "Minutes" },
   { href: "/support", label: "Support Us" },
 ];
 
