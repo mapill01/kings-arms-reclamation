@@ -3,6 +3,7 @@ import "./globals.css";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import ScrollReveal from "../components/ScrollReveal";
+import { Analytics } from "@vercel/analytics/next";
 
 // Fonts are self-hosted (in app/fonts) so nothing is fetched from
 // Google at build time or by visitors' browsers.
@@ -71,6 +72,7 @@ export default function RootLayout({ children }) {
         <SiteHeader />
         {children}
         <SiteFooter />
+        <Analytics />
       </body>
     </html>
   );
